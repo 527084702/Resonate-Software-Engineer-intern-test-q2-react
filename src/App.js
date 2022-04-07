@@ -43,7 +43,7 @@ class App extends React.Component {
     else {
       console.log(this.state.items);
       return (
-        <ul>
+        <table>
           {items.map(user => (
             <table>
               <tr>
@@ -72,7 +72,7 @@ class App extends React.Component {
               </tr>
             </table>
           ))}
-        </ul>
+        </table>
       );
     }
   }
