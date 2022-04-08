@@ -78,10 +78,4 @@ class App extends React.Component {
   }
 }
 
-//<li key={item.id}>
-//<h3>{item.id}</h3>
-//<h3>{item.name}</h3>
-//<p>{item.username}</p>
-//</li>
-
 export default App;
